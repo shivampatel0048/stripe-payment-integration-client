@@ -1,9 +1,15 @@
 import React from 'react'
+import './Home.css';
 
-const Sucess = () => {
+
+const Success = () => {
   return (
-    <h1> Payment Sucess</h1>
+    <div>
+
+      <h1> Payment Sucess</h1>
+      <a className='navigate__home' href='/'>Home</a>
+    </div>
   )
 }
 
-export default Sucess
+export default Success
